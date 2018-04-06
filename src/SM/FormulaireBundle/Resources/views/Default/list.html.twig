@@ -1,0 +1,17 @@
+
+<table>
+<tr>
+    <th>Nom</th>
+    <th>Prenom</th>
+    <th>Nationalite</th>
+    <th>Genre</th>
+</tr>
+    {% for member in members %}
+    <tr>
+        <td>{{ member.nom }}</td>
+        <td>{{ member.prenom }}</td>
+        <td>{{ member.nationalite }}</td>
+        <td>{{ member.genre }}</td>
+    </tr>
+    {% endfor %}
+</table>

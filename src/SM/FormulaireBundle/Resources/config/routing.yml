@@ -1,0 +1,6 @@
+sm_formulaire_homepage:
+    path:     /
+    defaults: { _controller: SMFormulaireBundle:Default:index }
+sm_list_homepage:
+    path:     /list
+    defaults: { _controller: SMFormulaireBundle:Default:list }
